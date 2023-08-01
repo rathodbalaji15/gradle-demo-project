@@ -14,6 +14,7 @@ public class GradleDemoProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GradleDemoProjectApplication.class, args);
 		System.out.println("Demo line");
+		System.out.println("Demo line 2");
 	}
 	@GetMapping
 	public String displayMessage(){
